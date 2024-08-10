@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Fechas Importantes</title>
+</head>
+<body>
+    <h1>Registrar Fechas Importantes</h1>
+    <form action="/procesar_fechas" method="post">
+        <table border="1">
+            <tr>
+                <th>Evento</th>
+                <th>Fecha (YYYY-MM-DD)</th>
+            </tr>
+            <tr>
+                <td>Examen Médico</td>
+                <td><input type="date" name="examen_medico"></td>
+            </tr>
+            <tr>
+                <td>Fotocheck</td>
+                <td><input type="date" name="fotocheck"></td>
+            </tr>
+            <tr>
+                <td>Cumpleaños</td>
+                <td><input type="date" name="cumpleaños"></td>
+            </tr>
+            <tr>
+                <td>Revisión Técnica</td>
+                <td><input type="date" name="revision_tecnica"></td>
+            </tr>
+            <tr>
+                <td>SOAT</td>
+                <td><input type="date" name="soat"></td>
+            </tr>
+            <tr>
+                <td>Seguro Contra Daño a Terceros</td>
+                <td><input type="date" name="seguro_contra_dano_terceros"></td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Guardar">
+    </form>
+</body>
+</html>
